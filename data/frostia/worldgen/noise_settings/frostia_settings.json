@@ -403,6 +403,18 @@
         {
           "type": "minecraft:condition",
           "if_true": {
+            "type": "minecraft:hole"
+          },
+          "then_run": {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "minecraft:powder_snow"
+            }
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "if_true": {
             "type": "minecraft:stone_depth",
             "offset": 1,
             "surface_type": "floor",

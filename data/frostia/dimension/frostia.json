@@ -1,67 +1,66 @@
 {
-    "type": "frostia:frostia_type",
-    "generator": {
-      "type": "minecraft:noise",
-      "settings": "frostia:frostia_settings",
-      "biome_source": {
-        "type": "minecraft:multi_noise",
-        "biomes": [
-          {
-            "biome": "frostia:snowy_plains",
-            "parameters": {
-              "temperature": [
-                -2,
-                0
-              ],
-              "humidity": [
-                0,
-                2
-              ],
-              "continentalness": 0,
-              "erosion": 0,
-              "weirdness": 0,
-              "depth": 0,
-              "offset": 0
-            }
-          },
-          {
-            "biome": "frostia:snowy_forest",
-            "parameters": {
-              "temperature": [
-                0,
-                2
-              ],
-              "humidity": [
-                0,
-                2
-              ],
-              "continentalness": 0,
-              "erosion": 0,
-              "weirdness": 0,
-              "depth": 0,
-              "offset": 0
-            }
-          },
-          {
-            "biome": "frostia:ice_floe",
-            "parameters": {
-              "temperature": [
-                0,
-                0
-              ],
-              "humidity": [
-                -2,
-                0
-              ],
-              "continentalness": 0,
-              "erosion": 0,
-              "weirdness": 0,
-              "depth": 0,
-              "offset": 0
-            }
-          }
-        ]
-      }
-    }
-  }
-  
+	"type": "frostia:frostia_type",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "frostia:frostia_settings",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "frostia:snowy_plains",
+					"parameters": {
+						"temperature": [
+							-2,
+							0
+						],
+						"humidity": [
+							0,
+							2
+						],
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "frostia:snowy_forest",
+					"parameters": {
+						"temperature": [
+							0,
+							2
+						],
+						"humidity": [
+							0,
+							2
+						],
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "frostia:ice_floe",
+					"parameters": {
+						"temperature": [
+							0,
+							0
+						],
+						"humidity": [
+							-2,
+							0
+						],
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				}
+			]
+		}
+	}
+}

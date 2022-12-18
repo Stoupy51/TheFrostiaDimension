@@ -6,4 +6,5 @@
 	execute if score #second frostia.data matches 20.. run function frostia:tick_second
 
 #Others
-	#execute ...
+	execute if score #santa_ice_count frostia.data matches 1.. as @e[type=item_frame,tag=frostia.santa_ice] at @s run function frostia:advancements/santa_boots/item_frame_clock
+

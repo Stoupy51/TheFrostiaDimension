@@ -1,5 +1,6 @@
 {
 	"values": [
-		"minecraft:iron_ore"
+		"minecraft:iron_ore",
+		"minecraft:moving_piston"
 	]
 }

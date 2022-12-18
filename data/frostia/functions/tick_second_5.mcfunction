@@ -6,4 +6,5 @@
 
 #Others
 	execute as @e[tag=frostia.block,sort=random] at @s run function frostia:custom_blocks/destroying/all
+	execute store result score #santa_ice_count frostia.data if entity @e[tag=frostia.santa_ice]
 

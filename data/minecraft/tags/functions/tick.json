@@ -1,5 +1,5 @@
 {
 	"values": [
-		"frostia:tick"
+		"frostia:utils/tick_verification"
 	]
 }

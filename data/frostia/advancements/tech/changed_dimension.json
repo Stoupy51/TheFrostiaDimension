@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension"
+		}
+	},
+	"rewards": {
+		"function": "frostia:advancements/changed_dimension"
+	}
+}

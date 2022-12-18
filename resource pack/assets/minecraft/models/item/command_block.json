@@ -1,0 +1,7 @@
+{
+	"parent": "block/command_block",
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2019001 }, "model": "frostia:materials/template_ingot" },
+		{ "predicate": { "custom_model_data": 2019003 }, "model": "frostia:materials/raw_template" }
+	]
+}

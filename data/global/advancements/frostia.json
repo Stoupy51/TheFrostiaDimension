@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Frostia",
+		"description": "v1.0.0",
+		"icon": {
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:2019000}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "global:frostia_makers",
+	"criteria": {
+		"always": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

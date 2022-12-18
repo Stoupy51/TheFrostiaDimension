@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Stoupy51, PiggyPig, Rignchen",
+		"description": "",
+		"icon": {
+			"item": "minecraft:packed_ice"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

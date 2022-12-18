@@ -1,0 +1,15 @@
+{
+	"parent": "block/deepslate",
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:place_model/template_ore" },
+		{ "predicate": { "custom_model_data": 2019002 }, "model": "frostia:place_model/christmas_present" },
+
+		{ "predicate": { "custom_model_data": 2019200 }, "model": "frostia:place_model/template_battery" },
+
+		{ "predicate": { "custom_model_data": 2019300 }, "model": "frostia:place_model/empty_generator" },
+		{ "predicate": { "custom_model_data": 2019301 }, "model": "frostia:place_model/empty_generator_on" },
+
+		{ "predicate": { "custom_model_data": 2019400 }, "model": "frostia:place_model/empty_consumer" },
+		{ "predicate": { "custom_model_data": 2019401 }, "model": "frostia:place_model/empty_consumer_on" }
+	]
+}

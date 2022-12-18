@@ -119,8 +119,7 @@
     "features": [
       [],
       [
-        "minecraft:lake_lava_underground",
-        "minecraft:lake_lava_surface"
+        "minecraft:lake_lava_underground"
       ],
       [
         "minecraft:amethyst_geode"
@@ -165,15 +164,9 @@
         "minecraft:disk_gravel"
       ],
       [],
-      [
-        "minecraft:spring_water",
-        "minecraft:spring_lava"
-      ],
+      [],
       [
         "minecraft:glow_lichen",
-        "minecraft:trees_snowy",
-        "minecraft:flower_default",
-        "minecraft:patch_grass_badlands",
         "minecraft:brown_mushroom_normal",
         "minecraft:red_mushroom_normal",
         "minecraft:patch_sugar_cane",

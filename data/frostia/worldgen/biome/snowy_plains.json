@@ -119,8 +119,7 @@
     "features": [
       [],
       [
-        "minecraft:lake_lava_underground",
-        "minecraft:lake_lava_surface"
+        "minecraft:lake_lava_underground"
       ],
       [
         "minecraft:amethyst_geode"
@@ -162,10 +161,7 @@
         "minecraft:disk_gravel"
       ],
       [],
-      [
-        "minecraft:spring_water",
-        "minecraft:spring_lava"
-      ],
+      [],
       [
         "minecraft:glow_lichen",
         "minecraft:trees_snowy",

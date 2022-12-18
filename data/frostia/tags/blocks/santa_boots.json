@@ -1,6 +1,7 @@
 {
 	"values": [
 		"#frostia:air",
-		"minecraft:glass"
+		"minecraft:glass",
+		"minecraft:snow"
 	]
 }

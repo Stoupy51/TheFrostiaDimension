@@ -1,31 +1,30 @@
 {
 	"criteria": {
-	  "requirement": {
-		"trigger": "minecraft:item_used_on_block",
-		"conditions": {
-		  "player": [
-			{
-			  "condition": "minecraft:reference",
-			  "name": "frostia:in_frostia_or_overworld"
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "frostia:in_frostia_or_overworld"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:firework_rocket"
+					]
+				},
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:packed_ice"
+						]
+					}
+				}
 			}
-		  ],
-		  "item": {
-			"items": [
-			  "minecraft:firework_rocket"
-			]
-		  },
-		  "location": {
-			"block": {
-			  "blocks": [
-				"minecraft:packed_ice"
-			  ]
-			}
-		  }
 		}
-	  }
 	},
 	"rewards": {
-	  "function": "frostia:advancements/used_fireworks_on_packed_ice/"
+		"function": "frostia:advancements/used_fireworks_on_packed_ice/"
 	}
-  }
-  
+}

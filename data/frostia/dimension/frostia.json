@@ -2,7 +2,7 @@
     "type": "minecraft:overworld",
     "generator": {
       "type": "minecraft:noise",
-      "settings": "minecraft:overworld",
+      "settings": "frostia:frostia_settings",
       "biome_source": {
         "type": "minecraft:multi_noise",
         "biomes": [

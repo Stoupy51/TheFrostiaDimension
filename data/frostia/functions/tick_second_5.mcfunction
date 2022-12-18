@@ -5,6 +5,7 @@
 	execute if score #minute frostia.data matches 12.. run function frostia:tick_minute
 
 #Others
+	execute as @a[predicate=frostia:in_frostia] run weather thunder 1000000
 	execute as @e[tag=frostia.block,sort=random] at @s run function frostia:custom_blocks/destroying/all
 	execute store result score #santa_ice_count frostia.data if entity @e[tag=frostia.santa_ice]
 

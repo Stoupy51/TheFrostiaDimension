@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:overworld",
+    "type": "frostia:frostia_type",
     "generator": {
       "type": "minecraft:noise",
       "settings": "frostia:frostia_settings",

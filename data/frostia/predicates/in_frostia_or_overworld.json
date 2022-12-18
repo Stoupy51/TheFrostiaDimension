@@ -1,0 +1,14 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "dimension": "minecraft:overworld"
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "dimension": "frostia:frostia"
+        }
+    }
+]

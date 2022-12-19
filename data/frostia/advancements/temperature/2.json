@@ -1,0 +1,22 @@
+{
+    "parent": "frostia:temperature/1",
+    "criteria": {
+        "temperature":{
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "frostia:frostia",
+                        "light": {
+                            "max":10,
+                            "min":8
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "frostia:advancements/temperature/2"
+    }
+}

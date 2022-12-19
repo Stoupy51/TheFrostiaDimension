@@ -10,6 +10,8 @@ scoreboard objectives add frostia.data dummy
 scoreboard objectives add frostia.config dummy
 scoreboard objectives add frostia.ice_timer dummy
 scoreboard objectives add frostia.portal_rotation dummy
+scoreboard objectives add frostia.temperature dummy
+scoreboard objectives add frostia.frozen_time dummy
 scoreboard objectives add frostia.portal_timer dummy
 
 # Default Config

@@ -1,3 +1,4 @@
+##Called by advancement frostia:tech/inventory_changed
 
 advancement revoke @s only frostia:tech/inventory_changed
 data modify storage frostia:main Inventory set from entity @s Inventory

@@ -1,3 +1,4 @@
+##Called by function frostia:load
 
 scoreboard players set #default_config frostia.config 1
 

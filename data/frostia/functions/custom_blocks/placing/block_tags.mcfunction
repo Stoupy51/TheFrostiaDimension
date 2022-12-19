@@ -1,3 +1,4 @@
+##Called by function frostia:custom_blocks/christmas_present/place/secondary
 
 tag @s add global.ignore
 tag @s add global.ignore.kill

@@ -1,3 +1,4 @@
+##Called by function frostia:custom_blocks/destroying/all
 
 #Try to replace item if silk touch, otherwise loot the present
 scoreboard players set #success frostia.data 0

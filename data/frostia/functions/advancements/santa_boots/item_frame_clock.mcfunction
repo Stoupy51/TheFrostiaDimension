@@ -1,3 +1,4 @@
+##Called by function frostia:tick
 
 ## Clock in seconds
 scoreboard players add @s frostia.ice_timer 1

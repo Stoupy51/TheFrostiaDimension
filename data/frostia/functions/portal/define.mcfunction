@@ -1,3 +1,4 @@
+##Called by function frostia:utils/check_frostia_portal
 
 scoreboard players operation @s frostia.portal_rotation = #rotation frostia.data
 execute if score #rotation frostia.data matches 1 run tp @s ~.5 ~ ~.99

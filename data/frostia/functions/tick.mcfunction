@@ -1,3 +1,4 @@
+##Called by function frostia:utils/tick_verification
 
 #Timer
 	scoreboard players add #tick_2 frostia.data 1

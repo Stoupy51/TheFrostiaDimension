@@ -1,3 +1,4 @@
+
 ##Called by function frostia:advancements/used_fireworks_on_packed_ice/check_frostia_portal
 ##Called by function frostia:portal/tick_2
 

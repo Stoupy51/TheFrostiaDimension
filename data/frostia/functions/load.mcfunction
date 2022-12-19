@@ -10,6 +10,8 @@ scoreboard objectives add frostia.data dummy
 scoreboard objectives add frostia.config dummy
 scoreboard objectives add frostia.ice_timer dummy
 scoreboard objectives add frostia.portal_rotation dummy
+scoreboard objectives add frostia.temperature dummy
+scoreboard objectives add frostia.frozen_time dummy
 
 # Default Config
 execute unless score #default_config frostia.config matches 1 run function frostia:utils/default_config

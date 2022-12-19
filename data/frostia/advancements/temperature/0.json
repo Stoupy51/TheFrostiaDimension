@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "temperature":{
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "frostia:frostia",
+                        "light": {
+                            "min":13
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "frostia:advancements/temperature/0"
+    }
+}

@@ -9,3 +9,5 @@
 #Others
 	execute as @a[sort=random] at @s run function frostia:utils/tick_second_players
 
+#Temperature
+	execute as @a[predicate=frostia:in_frostia] run function frostia:advancements/temperature/use/second

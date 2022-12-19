@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.santa_boots.tag",
+									"source": "all.christmas_socks.tag",
 									"target": "{}",
 									"op": "merge"
 								}

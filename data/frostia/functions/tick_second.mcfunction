@@ -8,6 +8,7 @@
 
 #Others
 	execute as @a[sort=random] at @s run function frostia:utils/tick_second_players
+	execute as @e[type=marker,tag=frostia.portal] at @s align xyz run function frostia:portal/tick_second
 
 #Temperature
 	execute as @a[predicate=frostia:in_frostia] run function frostia:advancements/temperature/use/second

@@ -19,7 +19,7 @@
 						"predicate": {
 							"equipment": {
 								"feet": {
-									"nbt": "{frostia:{santa_boots:1b}}"
+									"nbt": "{frostia:{christmas_socks:1b}}"
 								}
 							}
 						}
@@ -39,6 +39,6 @@
 		}
 	},
 	"rewards": {
-		"function": "frostia:advancements/santa_boots/"
+		"function": "frostia:advancements/christmas_socks/"
 	}
 }

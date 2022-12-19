@@ -21,6 +21,7 @@ scoreboard players set FrostiaVer load.status 1000
 #define storage frostia:main
 #define storage frostia:items
 #define storage frostia:temp
+#define storage frostia:portals
 
 #Blocks
 	#Christmas Present

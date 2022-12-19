@@ -3,8 +3,9 @@ scoreboard objectives remove frostia.config
 scoreboard objectives remove frostia.data
 
 data remove storage frostia:main all
-data remove storage frostia:items all
 data remove storage frostia:temp all
+data remove storage frostia:items all
+data remove storage frostia:portals all
 
 tp @e[tag=frostia.block] 0 -10000 0
 kill @e[tag=frostia.block]

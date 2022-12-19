@@ -1,3 +1,4 @@
+##Called by function frostia:advancements/santa_boots/
 
 scoreboard players set #success frostia.data 0
 execute if score #success frostia.data matches 0 store success score #success frostia.data if block ~ ~-1 ~ #frostia:air run function frostia:advancements/santa_boots/is_air

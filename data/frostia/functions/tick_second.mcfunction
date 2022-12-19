@@ -1,3 +1,5 @@
+##Called by function frostia:tick
+
 
 #Timers
 	scoreboard players set #second frostia.data 0

@@ -1,3 +1,4 @@
+##Called by function frostia:tick
 
 #Others
 scoreboard players set #tick_2 frostia.data 0

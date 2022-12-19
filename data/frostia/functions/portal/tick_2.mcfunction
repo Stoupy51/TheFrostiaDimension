@@ -1,3 +1,4 @@
+
 ##Called by function frostia:tick_2
 
 #Teleport players
@@ -11,6 +12,6 @@ execute if score @s frostia.portal_rotation matches 4 run particle dust .5 .9 1 
 
 #Check if portal is still valid
 function frostia:utils/check_frostia_portal
-execute unless score @s frostia.portal_rotation = #rotation frostia.data run kill @s
-execute if score @s frostia.portal_rotation matches 0 run kill @s
+execute unless score @s frostia.portal_rotation = #rotation frostia.data run function frostia:portal/kill
+execute if score @s frostia.portal_rotation matches 0 run function frostia:portal/kill
 

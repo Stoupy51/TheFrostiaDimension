@@ -3,7 +3,7 @@
 
 tag Stoupy51 add convention.debug
 tag PiggyPig add convention.debug
-tag Rignchen add convention.debug
+tag Onyx_T74 add convention.debug
 
 # Define scoreboard objectives
 scoreboard objectives add frostia.data dummy

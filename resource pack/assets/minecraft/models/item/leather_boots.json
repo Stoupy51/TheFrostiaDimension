@@ -5,6 +5,6 @@
 		"layer1": "item/leather_boots_overlay"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 2019103 }, "model": "frostia:equipments/template_boots" }
+		{ "predicate": { "custom_model_data": 2019100 }, "model": "frostia:item/christmas_socks" }
 	]
 }

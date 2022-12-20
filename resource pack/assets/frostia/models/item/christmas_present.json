@@ -1,0 +1,23 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"down": "frostia:block/christmas_present_top",
+		"up": "frostia:block/christmas_present_top",
+		"north": "frostia:block/christmas_present_side",
+		"south": "frostia:block/christmas_present_side",
+		"west": "frostia:block/christmas_present_side",
+		"east": "frostia:block/christmas_present_side"
+	},
+	"elements": [{
+		"from": [ 0, 0, 0 ],
+		"to": [ 16, 16, 16 ],
+		"faces": {
+			"down":  { "texture": "#down", "cullface": "down" },
+			"up":	{ "texture": "#up", "cullface": "up" },
+			"north": { "texture": "#north", "cullface": "north" },
+			"south": { "texture": "#south", "cullface": "south" },
+			"west":  { "texture": "#west", "cullface": "west" },
+			"east":  { "texture": "#east", "cullface": "east" }
+		}
+	}]
+}

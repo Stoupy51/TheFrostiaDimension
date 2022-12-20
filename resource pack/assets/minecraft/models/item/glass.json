@@ -1,0 +1,9 @@
+{
+	"parent": "block/glass",
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:block/frosted_ice_0" },
+		{ "predicate": { "custom_model_data": 2019001 }, "model": "frostia:block/frosted_ice_1" },
+		{ "predicate": { "custom_model_data": 2019002 }, "model": "frostia:block/frosted_ice_2" },
+		{ "predicate": { "custom_model_data": 2019003 }, "model": "frostia:block/frosted_ice_3" }
+	]
+}

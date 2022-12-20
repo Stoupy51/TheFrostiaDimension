@@ -1,16 +1,14 @@
 {
-    "structures": [
-      {
-        "structure": "frostia:camp",
-        "weight": 1
-      }
-    ],
-    "placement": {
-      "type": "minecraft:random_spread",
-      "salt": 667399837,
-      "spread_type": "linear",
-      "spacing": 10,
-      "separation": 5
-    }
-  }
-  
+	"structures": [
+		{
+			"structure": "frostia:camp",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 667399837,
+		"spacing": 10,
+		"separation": 5
+	}
+}

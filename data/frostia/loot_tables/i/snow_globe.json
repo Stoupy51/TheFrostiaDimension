@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:diamond_sword",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.template_sword.tag",
+									"source": "all.snow_globe.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"sapling":{
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"pig_spawn_egg"
+					],
+					"nbt": "{frostia:{sapling:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "frostia:advancements/sapling/"
+	}
+}

@@ -11,7 +11,7 @@ execute if score @s frostia.temperature matches -1 if predicate frostia:temperat
 execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_5 run scoreboard players set @s frostia.temperature 5
 
 # Reduce if santa boots
-execute if predicate frostia:has_boots run scoreboard players remove @s frostia.temperature 1
+execute unless score @s frostia.temperature matches 0 if predicate frostia:has_boots run scoreboard players remove @s frostia.temperature 1
 
 #Show + freeze
 execute if score @s frostia.temperature matches 0 run function frostia:temperatures/temperature/0

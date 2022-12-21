@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				},
+				{
+					"condition": "inverted",
+					"term": {
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension":"frostia:frostia"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mangrove_log"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"conditions": [
+				{
+					"condition": "location_check",
+					"predicate": {
+						"dimension": "frostia:frostia"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cooked_beef",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 12,
+								"max": 20
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

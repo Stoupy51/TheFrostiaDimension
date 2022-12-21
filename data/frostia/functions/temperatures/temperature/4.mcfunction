@@ -4,4 +4,4 @@
 title @s actionbar {"text": "O","color": "blue"}
 
 #Deal damages
-scoreboard players add @s frostia.frozen_time 2
+scoreboard players add @s[gamemode=!creative,gamemode=!spectator] frostia.frozen_time 2

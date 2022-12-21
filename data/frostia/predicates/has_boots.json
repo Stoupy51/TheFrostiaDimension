@@ -4,7 +4,9 @@
     "predicate": {
         "equipment": {
             "feet": {
-                "nbt": "{frostia:{christmas_socks:1b}}"
+                "items": [
+                    "leather_boots"
+                ]
             }
         }
     }

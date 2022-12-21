@@ -4,4 +4,4 @@
 title @s actionbar {"text": "O","color": "gold"}
 
 #Unfreeze
-scoreboard players remove @s frostia.frozen_time 3
+scoreboard players remove @s[scores={frostia.frozen_time=0..}] frostia.frozen_time 3

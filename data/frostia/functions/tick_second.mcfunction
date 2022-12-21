@@ -1,5 +1,5 @@
-##Called by function frostia:tick
 
+##Called by function frostia:tick
 
 #Timers
 	scoreboard players set #second frostia.data 0
@@ -8,7 +8,5 @@
 
 #Others
 	execute as @a[sort=random] at @s run function frostia:utils/tick_second_players
-	execute as @e[type=marker,tag=frostia.portal] at @s align xyz run function frostia:portal/tick_second
-#Ice Staff
-	execute as @e[type=marker,tag=frostia.center] at @s run function frostia:staff/ice/center
+	execute as @e[type=marker,tag=frostia.tick_second] at @s run function frostia:utils/tick_second_markers
 

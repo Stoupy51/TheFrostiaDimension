@@ -9,4 +9,4 @@ execute as @e[type=marker,tag=frostia.portal] at @s run function frostia:portal/
 
 #Ice staff
 execute as @a[scores={frostia.use_staff=1..}] run function frostia:staff/
-execute as @e[type=armor_stand,tag=frostia.dripice] at @s run function frostia:staff/dripice
+

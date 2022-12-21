@@ -8,4 +8,5 @@
 
 #Others
 	execute if score #santa_ice_count frostia.data matches 1.. as @e[type=item_frame,tag=frostia.santa_ice] at @s run function frostia:advancements/christmas_socks/item_frame_clock
+	execute if score #dripice_count frostia.data matches 1.. as @e[type=armor_stand,tag=frostia.dripice] at @s run function frostia:staff/dripice
 

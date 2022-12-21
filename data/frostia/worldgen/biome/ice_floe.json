@@ -150,8 +150,6 @@
 			"minecraft:ore_iron_small",
 			"minecraft:ore_gold",
 			"minecraft:ore_gold_lower",
-			"minecraft:ore_redstone",
-			"minecraft:ore_redstone_lower",
 			"minecraft:ore_diamond",
 			"minecraft:ore_diamond_large",
 			"minecraft:ore_diamond_buried",
@@ -166,7 +164,6 @@
 		[],
 		[],
 		[
-			"minecraft:glow_lichen",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
 			"minecraft:patch_sugar_cane",

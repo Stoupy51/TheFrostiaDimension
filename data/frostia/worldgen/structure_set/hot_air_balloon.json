@@ -1,0 +1,15 @@
+{
+	"structures": [
+	  {
+		"structure": "frostia:hot_air_balloon",
+		"weight": 1
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 960214934,
+	  "spacing": 32,
+	  "separation": 8
+	}
+  }
+  

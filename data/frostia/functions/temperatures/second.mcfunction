@@ -3,17 +3,17 @@
 
 #Which temperature
 scoreboard players set @s frostia.temperature -1
-execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_0 run scoreboard players set @s frostia.temperature 0
+execute if predicate frostia:temperatures/step_0 run scoreboard players set @s frostia.temperature 0
 execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_1 run scoreboard players set @s frostia.temperature 1
 execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_2 run scoreboard players set @s frostia.temperature 2
 execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_3 run scoreboard players set @s frostia.temperature 3
 execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_4 run scoreboard players set @s frostia.temperature 4
-execute if score @s frostia.temperature matches -1 if predicate frostia:temperatures/step_5 run scoreboard players set @s frostia.temperature 5
+execute if score @s frostia.temperature matches -1 run scoreboard players set @s frostia.temperature 5
 
 # Regulate temperature
 scoreboard players set #regulate frostia.temperature 0
 
-execute if predicate frostia:has_leather run scoreboard players remove #regulate frostia.temperature 1
+execute if predicate frostia:has_leather_armor run scoreboard players remove #regulate frostia.temperature 1
 execute if block ~ ~ ~ #frostia:water run scoreboard players add #regulate frostia.temperature 1
 execute if block ~ ~ ~ powder_snow run scoreboard players add #regulate frostia.temperature 3
 

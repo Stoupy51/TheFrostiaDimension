@@ -1,3 +1,7 @@
+
 ##Called by function frostia:staff/ice/damage
 
-execute if block ~ ~ ~ #frostia:air_snow unless entity @e[type=marker,tag=frostia.ice,distance=..0.5] run summon marker ~ ~ ~ {Tags:["frostia.temp","frostia.ice"]}
+summon item_frame ~ ~ ~ {Tags:["frostia.santa_ice","frostia.ice_specific"],ItemRotation:0b,Invisible:1b,Invulnerable:1b,Fixed:1b,Silent:1b,Facing:1b}
+scoreboard players add #santa_ice_count frostia.data 1
+setblock ~ ~ ~ ice
+

@@ -7,7 +7,7 @@
                 "items": [
                     "warped_fungus_on_a_stick"
                 ],
-                "nbt": "{CustomModelData:2019102}"
+                "nbt": "{frostia:{ice_staff:1b}}"
             }
         }
     }

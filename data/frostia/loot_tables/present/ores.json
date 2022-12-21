@@ -2,12 +2,7 @@
 	"type": "minecraft:gift",
 	"pools": [
 		{
-			"rolls": {
-				"type": "minecraft:uniform",
-				"min": 12,
-				"max": 24
-			},
-			"bonus_rolls": 0,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -19,9 +14,8 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
-							},
-							"add": false
+								"max": 64
+							}
 						}
 					]
 				},
@@ -35,9 +29,8 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
-							},
-							"add": false
+								"max": 64
+							}
 						}
 					]
 				},
@@ -51,9 +44,8 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
-							},
-							"add": false
+								"max": 64
+							}
 						}
 					]
 				},
@@ -66,9 +58,8 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
-							},
-							"add": false
+								"max": 64
+							}
 						}
 					]
 				},
@@ -81,9 +72,8 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
-							},
-							"add": false
+								"max": 64
+							}
 						}
 					]
 				}

@@ -1,6 +1,7 @@
 {
 	"parent": "block/deepslate",
 	"overrides": [
-		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:block/christmas_present" }
+		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:block/christmas_present" },
+		{ "predicate": { "custom_model_data": 2019001 }, "model": "frostia:block/snowy_sapling" }
 	]
 }

@@ -9,4 +9,6 @@
 #Others
 	execute as @a[sort=random] at @s run function frostia:utils/tick_second_players
 	execute as @e[type=marker,tag=frostia.portal] at @s align xyz run function frostia:portal/tick_second
+#Ice Staff
+	execute as @e[type=marker,tag=frostia.center] at @s run function frostia:staff/ice/center
 

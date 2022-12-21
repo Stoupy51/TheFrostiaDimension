@@ -30,8 +30,8 @@ execute positioned ~ ~-1 ~1 run function frostia:staff/ice/spawn
 execute positioned ~ ~ ~-1 run function frostia:staff/ice/spawn
 
 scoreboard players set #success frostia.data 0
-execute store success score #success frostia.data run tag @e[type=marker,tag=frostia.block,tag=!frostia.center,distance=..0.5] add frostia.center
-execute if score #success frostia.data matches 0 run summon marker ~ ~ ~ {Tags:["frostia.temp","frostia.block","frostia.center","frostia.tick_second"]}
+execute store success score #success frostia.data run tag @e[type=marker,tag=frostia.ice,tag=!frostia.center,distance=..0.5] add frostia.center
+execute if score #success frostia.data matches 0 run summon marker ~ ~ ~ {Tags:["frostia.temp","frostia.ice","frostia.center","frostia.tick_second"]}
 
 execute positioned ~ ~ ~1 run function frostia:staff/ice/spawn
 

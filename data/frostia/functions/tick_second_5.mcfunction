@@ -10,4 +10,5 @@
 	execute as @a[predicate=frostia:in_frostia] at @s run weather thunder 1000000
 	execute as @e[tag=frostia.block,sort=random] at @s run function frostia:custom_blocks/destroying/all
 	execute store result score #santa_ice_count frostia.data if entity @e[tag=frostia.santa_ice]
+	execute store result score #dripice_count frostia.data if entity @e[tag=frostia.dripice]
 

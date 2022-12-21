@@ -14,7 +14,7 @@ scoreboard objectives add frostia.portal_rotation dummy
 scoreboard objectives add frostia.temperature dummy
 scoreboard objectives add frostia.frozen_time dummy
 scoreboard objectives add frostia.portal_timer dummy
-scoreboard objectives add frostia.use_staff used:warped_fungus_on_a_stick
+scoreboard objectives add frostia.right_click used:warped_fungus_on_a_stick
 
 # Default Config
 execute unless score #default_config frostia.config matches 1 run function frostia:utils/default_config

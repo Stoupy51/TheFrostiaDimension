@@ -3,10 +3,11 @@
 	"entity": "this",
 	"predicate": {
 		"equipment": {
-			"feet": {
+			"mainhand": {
 				"items": [
-					"leather_boots"
-				]
+					"warped_fungus_on_a_stick"
+				],
+				"nbt": "{frostia:{snow_globe:1b}}"
 			}
 		}
 	}

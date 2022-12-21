@@ -1,13 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "location": {
-            "block": {
-                "blocks": [
-                    "powder_snow"
-                ]
-            }
-        }
-    }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"blocks": [
+					"powder_snow"
+				]
+			}
+		}
+	}
 }

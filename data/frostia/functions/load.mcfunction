@@ -17,9 +17,11 @@ scoreboard objectives add frostia.portal_timer dummy
 scoreboard objectives add frostia.right_click used:warped_fungus_on_a_stick
 
 # Bossbar
-bossbar add frostia:santa_claus {"text":"Santa","color": "red"}
+bossbar add frostia:santa_claus {"text":""}
+bossbar set frostia:santa_claus name {"text":"Santa","color":"dark_red"}
 bossbar set frostia:santa_claus color red
-execute unless entity @e[type=zombie,tag=frostia.santa_claus,limit=1] run bossbar set frostia:santa_claus visible false
+bossbar set frostia:santa_claus style notched_10
+bossbar set frostia:santa_claus max 250
 
 # Default Config
 execute unless score #default_config frostia.config matches 1 run function frostia:utils/default_config

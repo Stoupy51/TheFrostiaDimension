@@ -6,12 +6,12 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 20,
+					"weight": 4,
 					"name": "frostia:present/ores"
 				},
 				{
 					"type": "minecraft:item",
-					"weight":25,
+					"weight": 5,
 					"name": "minecraft:coal",
 					"functions": [
 						{
@@ -27,7 +27,7 @@
 				{
 					"type": "loot_table",
 					"weight": 1,
-					"name": "frostia:i/christmas_socks"
+					"name": "frostia:i/snow_globe"
 				}
 			]
 		}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"weight": 20,
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/polar_bear"
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:loot_table",
+					"name": "frostia:i/christmas_present"
+				}
+			]
+		}
+	]
+}

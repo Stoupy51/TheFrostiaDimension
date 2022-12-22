@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:pig_spawn_egg",
+					"name": "minecraft:furnace",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.sapling.tag",
+									"source": "all.snowy_sapling.tag",
 									"target": "{}",
 									"op": "merge"
 								}

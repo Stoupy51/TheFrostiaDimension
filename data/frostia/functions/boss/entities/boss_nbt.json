@@ -20,5 +20,5 @@
 		{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:2019102}}
 	],
 	Passengers:[{id:"minecraft:marker",Tags:["frostia.santa_claus","smithed.strict","smithed.entity"]}],
-	ActiveEffects:[{Id:10,Amplifier:-1b,Duration:40,ShowParticles:0b}]
+	ActiveEffects:[{Id:8,Amplifier:127b,Duration:80,ShowParticles:0b}]
 }

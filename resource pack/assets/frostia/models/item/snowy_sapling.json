@@ -1,0 +1,6 @@
+{
+	"parent": "item/dead_fire_coral",
+	"textures": {
+		"layer0": "frostia:block/snowy_sapling"
+	}
+}

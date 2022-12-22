@@ -7,13 +7,10 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:mangrove_log"
+					"name": "minecraft:oak_sapling"
 				}
 			],
 			"conditions": [
-				{
-					"condition": "minecraft:survives_explosion"
-				},
 				{
 					"condition": "minecraft:inverted",
 					"term": {
@@ -29,18 +26,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:cooked_beef",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 12,
-								"max": 20
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "frostia:i/snowy_sapling"
 				}
 			],
 			"conditions": [

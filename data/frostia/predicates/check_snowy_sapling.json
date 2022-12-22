@@ -1,0 +1,23 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"block": {
+				"blocks": [
+					"minecraft:dead_fire_coral"
+				]
+			}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"offsetY": -1,
+		"predicate": {
+			"block": {
+				"blocks": [
+					"minecraft:snow_block"
+				]
+			}
+		}
+	}
+]

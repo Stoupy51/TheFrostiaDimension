@@ -3,36 +3,36 @@
 	"pools": [
 		{
 			"rolls": {
-				"type": "uniform",
-				"max": 11,
-				"min": 8
+				"type": "minecraft:uniform",
+				"min": 8,
+				"max": 11
 			},
 			"entries": [
 				{
-					"type": "item",
-					"name": "torch",
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:torch",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count": {
-								"type": "uniform",
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 16
 							}
 						}
-					],
-					"weight":1
+					]
 				},
 				{
-					"type": "loot_table",
-					"name": "frostia:leather",
-					"weight":1,
+					"type": "minecraft:loot_table",
+					"weight": 1,
 					"quality": 2,
+					"name": "frostia:leather",
 					"functions": [
 						{
-							"function": "set_damage",
+							"function": "minecraft:set_damage",
 							"damage": {
-								"type": "uniform",
+								"type": "minecraft:uniform",
 								"min": 0,
 								"max": 1
 							}
@@ -40,53 +40,53 @@
 					]
 				},
 				{
-					"type": "item",
-					"name": "sugar_cane",
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:sugar_cane",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count": {
-								"type": "uniform",
-								"max": 16,
-								"min": 1
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 16
 							}
 						}
-					],
-					"weight":1
+					]
 				},
 				{
-					"type": "item",
-					"name": "snowball",
-					"weight": 3
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:snowball"
 				},
 				{
-					"type": "loot_table",
+					"type": "minecraft:loot_table",
+					"weight": 4,
 					"name": "frostia:i/sapling",
 					"functions": [
 						{
-							"function": "set_count",
+							"function": "minecraft:set_count",
 							"count": {
-								"type": "uniform",
-								"max": 64,
-								"min": 1
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 64
 							}
 						}
-					],
-					"weight": 4
+					]
 				}
 			]
 		},
 		{
-			"rolls":1,
+			"rolls": 1,
 			"entries": [
 				{
-					"type": "item",
-					"name": "fire_charge"
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge"
 				}
 			],
 			"conditions": [
 				{
-					"condition": "random_chance",
+					"condition": "minecraft:random_chance",
 					"chance": 0.1
 				}
 			]

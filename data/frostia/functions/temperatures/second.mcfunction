@@ -14,6 +14,7 @@ execute if score @s frostia.temperature matches -1 run scoreboard players set @s
 execute if predicate frostia:has_leather_armor run scoreboard players remove @s frostia.temperature 1
 execute if block ~ ~ ~ #frostia:water run scoreboard players add @s frostia.temperature 1
 execute if block ~ ~ ~ powder_snow run scoreboard players add @s frostia.temperature 3
+execute if entity @s[tag=unfriz] run scoreboard players set @s frostia.temperature 0
 
 execute if score @s frostia.temperature matches 5.. run scoreboard players set @s frostia.temperature 5
 execute if score @s frostia.temperature matches ..0 run scoreboard players set @s frostia.temperature 0

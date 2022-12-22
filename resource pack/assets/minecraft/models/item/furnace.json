@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:block/furnace",
 	"overrides": [
-		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:item/christmas_present" }
+		{ "predicate": { "custom_model_data": 2019000 }, "model": "frostia:item/christmas_present" },
+		{ "predicate": { "custom_model_data": 2019001 }, "model": "frostia:item/snowy_sapling" }
 	]
 }

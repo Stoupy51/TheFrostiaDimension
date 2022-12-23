@@ -2,18 +2,25 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:warped_fungus_on_a_stick",
-			"nbt": "{CustomModelData:2019101,Enchantments:[{id:\"minecraft:sharpness\",lvl:1}]}"
+			"nbt": "{CustomModelData:2019101,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
 		},
-		"title": "Someone's getting a lot of coal this year",
-		"description": "Defeat Santa",
+		"title": {
+			"text": "No present for you!",
+			"color": "aqua"
+		},
+		"description": {
+			"text": "Defeat the Santa boss",
+			"color": "green"
+		},
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"parent": "frostia:display/boss_summon",
 	"criteria": {
-		"fungus": {
-			"trigger": "player_killed_entity",
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
 					"type": "zombie",

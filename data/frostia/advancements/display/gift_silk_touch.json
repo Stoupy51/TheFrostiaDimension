@@ -2,18 +2,19 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:furnace",
-			"nbt": "{CustomModelData:2019000,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
+			"nbt": "{CustomModelData:2019000,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
 		},
-		"title": "Gift Tief",
-		"description": "How dare you take that kid's gift away?",
+		"title": "Present Thief",
+		"description": "How dare you take that kid's present away?",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": true
+		"hidden": false
 	},
 	"parent": "frostia:display/gift_open",
 	"criteria": {
-		"cadeau": {
-			"trigger": "impossible"
+		"requirement": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

@@ -3,8 +3,14 @@
 		"icon": {
 			"item": "minecraft:leather_boots"
 		},
-		"title": "A cold traveler",
-		"description": "Travel in every single biome in frostia",
+		"title": {
+			"text": "A cold traveler",
+			"color": "aqua"
+		},
+		"description": {
+			"text": "Travel in every single biome in Frostia",
+			"color": "green"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -4,16 +4,22 @@
 			"item": "minecraft:leather_boots",
 			"nbt": "{CustomModelData:2019100}"
 		},
-		"title": "Coold foot",
-		"description": "Who took my socks?",
+		"title": {
+			"text": "Who stole my socks?",
+			"color": "aqua"
+		},
+		"description": {
+			"text": "Equip a pair of Christmas Socks",
+			"color": "green"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": true
+		"hidden": false
 	},
-	"parent": "frostia:display/gift_open",
+	"parent": "frostia:display/boss_kill",
 	"criteria": {
-		"boots": {
-			"trigger": "inventory_changed",
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": {
 					"equipment": {

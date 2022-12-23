@@ -4,16 +4,22 @@
 			"item": "minecraft:warped_fungus_on_a_stick",
 			"nbt": "{CustomModelData:2019101}"
 		},
-		"title": "Are you on the naugty list?",
-		"description": "Summon Santa",
+		"title": {
+			"text": "Are you on the naughty list?",
+			"color": "aqua"
+		},
+		"description": {
+			"text": "Summon the Santa boss",
+			"color": "green"
+		},
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "frostia:display/root",
+	"parent": "frostia:display/gift_open",
 	"criteria": {
-		"fungus": {
-			"trigger": "impossible"
+		"requirement": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

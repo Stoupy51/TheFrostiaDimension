@@ -13,4 +13,5 @@
 	execute store result score #santa_ice_count frostia.data if entity @e[type=item_frame,tag=frostia.santa_ice]
 	execute store result score #dripice_count frostia.data if entity @e[type=armor_stand,tag=frostia.dripice]
 	execute store result score #santa_claus frostia.data if entity @e[type=marker,tag=frostia.santa_claus]
+	execute unless score #santa_claus frostia.data matches 0 run function frostia:boss/bossbar
 

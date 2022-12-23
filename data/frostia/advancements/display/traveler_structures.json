@@ -4,7 +4,8 @@
 			"item": "minecraft:chest"
 		},
 		"title": "A cold explorer",
-		"description": "Explore every single structures in frostia",
+		"description": "Explore every single structures in Frostia",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true
@@ -12,7 +13,7 @@
 	"parent": "frostia:display/traveler_biome",
 	"criteria": {
 		"camp": {
-			"trigger": "location",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
@@ -22,7 +23,7 @@
 			}
 		},
 		"christmas_tree": {
-			"trigger": "location",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
@@ -32,7 +33,7 @@
 			}
 		},
 		"hot_air_balloon": {
-			"trigger": "location",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {

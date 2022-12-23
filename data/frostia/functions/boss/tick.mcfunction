@@ -1,7 +1,6 @@
 
 # Function runned every tick on the marker passenging the Santa Claus
 scoreboard players add @s frostia.data 1
-particle glow ~ ~-1.5 ~ 0.2 0 0.2 0 5 force @a[distance=0..]
 bossbar set frostia:santa_claus players @a[distance=..100]
 
 # Boss pattern : 100 ticks = summoning reindeers, 300 ticks = shooting random player with ice_staff

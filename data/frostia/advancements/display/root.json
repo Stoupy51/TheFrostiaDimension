@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:packed_ice"
+		},
+		"title": "Brrrrr",
+		"description": "Enter the Frostia Dimension",
+		"background": "minecraft:textures/block/packed_ice.png",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "frostia:frostia"
+			}
+		}
+	}
+}

@@ -3,8 +3,8 @@
 		"title": "Frostia",
 		"description": "v1.0.0",
 		"icon": {
-			"item": "minecraft:command_block",
-			"nbt": "{CustomModelData:2019000}"
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:2019100}"
 		},
 		"show_toast": false,
 		"announce_to_chat": false,

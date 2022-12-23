@@ -1,0 +1,7 @@
+{ "providers": [
+	{ "type": "bitmap", "file": "frostia:font/hot.png",							"ascent": 10, "height": 16, "chars": ["\uec00"] },
+	{ "type": "bitmap", "file": "frostia:font/comfortable.png",					"ascent": 10, "height": 16, "chars": ["\uec01"] },
+	{ "type": "bitmap", "file": "frostia:font/cool.png",						"ascent": 10, "height": 16, "chars": ["\uec02"] },
+	{ "type": "bitmap", "file": "frostia:font/snowflake.png",					"ascent": 12, "height": 16, "chars": ["\uec03"] },
+	{ "type": "bitmap", "file": "frostia:font/ice.png",							"ascent": 10, "height": 16, "chars": ["\uec04"] }
+]}

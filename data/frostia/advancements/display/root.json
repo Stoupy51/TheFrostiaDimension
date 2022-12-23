@@ -5,7 +5,7 @@
 		},
 		"title": "Brrrrr",
 		"description": "Enter the Frostia Dimension",
-		"background": "minecraft:textures/block/packed_ice.png",
+		"background": "frostia:textures/background.png",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

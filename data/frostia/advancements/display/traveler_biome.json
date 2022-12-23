@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots"
+		},
+		"title": "A cold traveler",
+		"description": "Travel in every single biome in frostia",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "frostia:display/root",
+	"criteria": {
+		"ice_floe": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frostia:ice_floe"
+					}
+				}
+			}
+		},
+		"snowy_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frostia:snowy_forest"
+					}
+				}
+			}
+		},
+		"snowy_plains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "frostia:snowy_plains"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ice_floe"
+		],
+		[
+			"snowy_forest"
+		],
+		[
+			"snowy_plains"
+		]
+	]
+}

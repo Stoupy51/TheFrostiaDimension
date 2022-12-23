@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_boots",
+			"nbt": "{CustomModelData:2019100}"
+		},
+		"title": "Coold foot",
+		"description": "Who took my socks?",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "frostia:display/gift_open",
+	"criteria": {
+		"boots": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"feet": {
+							"nbt": "{frostia:{christmas_socks:1b}}"
+						}
+					}
+				}
+			}
+		}
+	}
+}

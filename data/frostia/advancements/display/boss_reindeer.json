@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snowball"
+		},
+		"title": "Where did Rudolf went?",
+		"description": "Bring a reindeer to the overworld before killing it",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "frostia:display/boss_kill",
+	"criteria": {
+		"reindeer": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "polar_bear",
+					"nbt": "{Tags:[\"frostia.cold_reindeer\"]}",
+					"location": {
+						"dimension": "frostia:frostia"
+					}
+				}
+			}
+		}
+	}
+}

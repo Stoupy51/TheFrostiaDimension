@@ -10,5 +10,6 @@ execute if score @s frostia.data matches 40 run scoreboard players remove #reind
 execute if score @s frostia.data matches 40 run tag @s remove smithed.strict
 execute if score @s frostia.data matches 40 run tag @s remove frostia.temp
 execute if score @s frostia.data matches 40 run tag @s remove frostia.reindeer_summoning
+execute if score @s frostia.data matches 40 run tag @s[predicate=frostia:in_frostia] add frostia.cold_reindeer
 execute if score @s frostia.data matches 40 run scoreboard players reset @s frostia.data
 

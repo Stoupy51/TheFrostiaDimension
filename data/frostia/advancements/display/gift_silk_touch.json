@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:furnace",
+			"nbt": "{CustomModelData:2019000,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
+		},
+		"title": "Gift Tief",
+		"description": "How dare you take that kid's gift away?",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "frostia:display/gift_open",
+	"criteria": {
+		"cadeau": {
+			"trigger": "impossible"
+		}
+	}
+}

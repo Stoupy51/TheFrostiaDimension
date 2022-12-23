@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": "A cold explorer",
+		"description": "Explore every single structures in frostia",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "frostia:display/traveler_biome",
+	"criteria": {
+		"camp": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "frostia:camp"
+					}
+				}
+			}
+		},
+		"christmas_tree": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "frostia:christmas_tree"
+					}
+				}
+			}
+		},
+		"hot_air_balloon": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "frostia:hot_air_balloon"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"camp"
+		],
+		[
+			"christmas_tree"
+		],
+		[
+			"hot_air_balloon"
+		]
+	]
+}

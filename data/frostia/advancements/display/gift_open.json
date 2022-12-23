@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:furnace",
+			"nbt": "{CustomModelData:2019000}"
+		},
+		"title": "Somebody ate me cookies!",
+		"description": "I believe Santa came here.",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "frostia:display/root",
+	"criteria": {
+		"cadeau": {
+			"trigger": "impossible"
+		}
+	}
+}

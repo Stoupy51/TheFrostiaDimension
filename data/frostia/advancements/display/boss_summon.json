@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:2019101}"
+		},
+		"title": "Are you on the naugty list?",
+		"description": "Summon Santa",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "frostia:display/root",
+	"criteria": {
+		"fungus": {
+			"trigger": "impossible"
+		}
+	}
+}

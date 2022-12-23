@@ -5,7 +5,7 @@
 
 
 # 📖 Description
-This data pack is a bunch of features to the game including:
+This data pack adds a bunch of features to the game including:
 - A new dimension (The Frostia Dimension) with 3 biomes
 - A portal to make through the dimension
 - A temperature system making the player take damage when too cold

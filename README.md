@@ -11,6 +11,7 @@ This data pack adds a bunch of features to the game including:
 - A temperature system making the player take damage when too cold
 - A new boss (Santa Claus) fighting with an Ice Staff and mobs
 - 5 new items (Christmas Present, Snowy Sapling, Christmas Socks, Snow Globe, Ice Staff)
+- 10 new advancements
 - 3 new structures
 
 

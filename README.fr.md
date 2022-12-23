@@ -11,6 +11,7 @@ Ce datapack apporte un grand nombre de fonctionnalités au jeu, notamment :
 - Un système de température qui fait que le joueur subit des dégâts lorsqu'il a trop froid
 - Un nouveau boss (Santa Claus) qui se bat avec un bâton de glace et des mobs
 - 5 nouveaux objets (Christmas Present, Snowy Sapling, Christmas Socks, Snow Globe, Ice Staff)
+- 10 nouveaux succès
 - 3 nouvelles structures
 
 

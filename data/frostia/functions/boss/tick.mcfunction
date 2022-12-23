@@ -9,6 +9,5 @@ execute if score @s frostia.data matches 300 run function frostia:boss/shoot_pla
 execute if score @s frostia.data matches 400 run scoreboard players set @s frostia.data 0
 
 # Kill marker if the boss is dead
-execute unless predicate frostia:has_vehicle run function frostia:boss/kill_marker
-execute if score #santa_claus frostia.data matches 1.. run bossbar set frostia:santa_claus players @a[distance=..100]
+bossbar set frostia:santa_claus players @a[distance=..100]
 

@@ -16,7 +16,9 @@ scoreboard objectives add frostia.frozen_time dummy
 scoreboard objectives add frostia.portal_timer dummy
 scoreboard objectives add frostia.right_click used:warped_fungus_on_a_stick
 
-# Default Config
+# Default Config - c91b158a-7ece-44ec-ad7d-c8a66f032258
+execute in minecraft:overworld run forceload add 0 0
+schedule function frostia:utils/default_config_marker 2s
 execute unless score #default_config frostia.config matches 1 run function frostia:utils/default_config
 
 # Define datapack version in this format "1.00.0" (Major.Minor.Patch)

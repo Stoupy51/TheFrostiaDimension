@@ -62,7 +62,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 4,
-					"name": "frostia:i/sapling",
+					"name": "frostia:i/snowy_sapling",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
